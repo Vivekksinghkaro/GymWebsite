@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	box sizing: border-box;
+	text-decoration: none;
+	border: none;
+	text-transform: capitalize;
+	transition: all .2px linear;
+}
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1px;
+	background-color:black ;
+    height: 50px;
+
+}
+body{
+
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 1366px 768px ;
+
+}
+.logo{
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+
+
+}
+span{
+	color: red;
+}
+.navbar a{
+	display: inline block;
+	padding: 4px 25px;
+	font-size: 30px;
+	color: white;
+} 
+a:hover{
+	background-color: red;
+
+
+}
+#menu-btn{
+	font-size: 3px;
+	color: white;
+	cursor: pointer;
+	display:none;
+
+}
+.trainers{
+    min-height: 100vh;
+    text-align: center;
+    padding: 2% 6%;
+}
+.trainers h1{
+    font-size: 60.8px;
+    padding: 8px;
+    display: inline-block;
+    color: yellowgreen;
+    border-bottom: 4.8px solid yellowgreen;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.trainers p{
+    font-size: 25px;
+    color: ghostwhite;
+
+}
+.trainers .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.trainers .items .item{
+    height: 650px;
+    width: 400px;
+    margin: 80px 16px;
+}
+.trainers .item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 9.6px;
+    object-fit: cover;
+}
+.trainers .item .inner{
+    position: relative;
+    z-index: 9;
+    padding: 0 16px;
+}
+.trainers .item:hover{
+    transform: translateY(-20px);
+}
+.trainers .item .inner .info{
+    background-color: yellowgreen;
+    padding: 19.2px 16px;
+    border-radius: 9.6px;
+    margin-top: -40px;
+}
+.trainers .item:hover .info{
+    transform: translateY(-30px);
+}
+.trainers .item .inner .info h4{
+    font-size: 21px;
+    font-weight: 600;
+    margin: 0;
+    color: black;
+}
+.trainers .item .inner .info p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 9.6px;
+}
+.trainers .item .inner .info .links{
+    margin-top: 16px;
+}
+.trainers .item .inner .info .links img{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    margin-left: 4.8px;
+    text-align: center;
+   
+}
+.trainers .item .inner .info .links img:hover{
+    box-shadow: 0 0 9.6px black;
+}
+

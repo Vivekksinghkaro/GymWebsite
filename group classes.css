@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	box sizing: border-box;
+	text-decoration: none;
+	border: none;
+	text-transform: capitalize;
+	transition: all .2px linear;
+}
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1px;
+	background-color:black ;
+    height: 50px;
+
+}
+body{
+
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 1366px 768px ;
+
+}
+.logo{
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+
+
+}
+span{
+	color: red;
+}
+.navbar a{
+	display: inline block;
+	padding: 4px 25px;
+	font-size: 30px;
+	color: white;
+} 
+a:hover{
+	background-color: red;
+
+
+}
+#menu-btn{
+	font-size: 3px;
+	color: white;
+	cursor: pointer;
+	display:none;
+
+}
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	color: white;
+
+}
+.left{
+	flex-basis: 50%;
+	padding-top: 100px;
+}
+
+
+.right{
+	padding-top: 300px;
+	flex-basis: 50%;
+	max-width: 400px;
+
+}
+.right h2{
+	color: white;
+	font-size: 30px;
+}
+.btn{
+    border: 2px solid grey;
+	border-radius:10px ;
+	font-size: 14px;
+	cursor: pointer;
+	padding: 5px 15px;
+
+}
+button:hover{
+	background-color: red;
+}
+.services{
+    min-height: 100vh;
+    text-align: center;
+    padding: 2% 6%;
+}
+.services h1{
+    font-size: 60.8px;
+    padding: 8px;
+    display: inline-block;
+    color: yellowgreen;
+   border-bottom:4.8px solid yellowgreen ;
+   margin-top: 50px;
+    margin-bottom: 28.8px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   flex-wrap: wrap;
+}
+.services .container .box{
+    width: 500px;
+    height: 500px;
+    margin: 8px;
+    position:relative;
+    overflow: hidden;
+}
+.services .container .box img{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+}
+.services .container .box .info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transform-origin: bottom;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services .container .box:hover .info{
+    transform: translate(-50%, -50%) scale(1);
+}
+.services .container .box .info h3{
+    font-size: 48px;
+    color: yellowgreen;
+    margin-bottom: 19.2px;
+}
+.services .container .box .info p{
+    line-height: 2;
+    text-align: justify;
+    color: #fff;
+    font-size: 17.6px;
+    padding: 0 16px;
+    margin-bottom: 19.2px;
+
+} 

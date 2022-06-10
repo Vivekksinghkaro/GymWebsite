@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box sizing: border-box;
+	text-decoration: none;
+	border: none;
+	text-transform: capitalize;
+	transition: all .2px linear;
+}
+body{
+
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 1366px 780px ;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: black;
+	padding: 0 1px;
+    height: 50px;
+
+}
+.logo{
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+
+
+}
+span{
+	color: red;
+}
+.navbar a{
+	display: inline block;
+	padding: 4px 25px;
+	font-size: 30px;
+	color: white;
+}
+a:hover{
+	background-color: red;
+
+
+}
+#menu-btn{
+	font-size: 3px;
+	color: white;
+	cursor: pointer;
+	display:none;
+}
+.schedule{
+	  min-height: 100vh;
+	  text-align: center;
+     padding: 2% 6%;
+}
+.schedule  h1{
+	
+  font-size: 60.8px;
+  display: inline-block;
+   padding: 8px;
+    color: yellowgreen;
+   border-bottom:4.8px solid yellowgreen ;
+   margin-top: 50px;
+    margin-bottom: 28.8px;
+}
+.schedule  p{   
+        color: white;
+        text-align: center ;
+        font-size: 23px;
+
+
+
+ }
+.schedule .container  {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	color: white;
+}
+.schedule .container .left{
+	flex-basis: 50%;
+	padding-top: 100px;
+
+
+}
+.schedule .container .right{
+    padding-top: 90px;
+    flex-basis: 50%;
+}
+
+.schedule .container .right .table{
+
+	width: 100%;
+	height: 70%;
+	border-collapse: collapse;
+}
+
+.schedule .container .right .table td{
+	border:1px solid red;
+	padding: 5px;
+	font-size: 21px;
+	text-align: center;
+	color:white;
+}
+.day:nth-child(odd) {
+       background-color: red;
+}
+

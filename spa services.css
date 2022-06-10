@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	box sizing: border-box;
+	text-decoration: none;
+	border: none;
+	text-transform: capitalize;
+	transition: all .2px linear;
+}
+body{
+
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 1366px 780px ;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: black;
+	padding: 0 1px;
+    height: 50px;
+
+}
+.logo{
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+
+
+}
+span{
+	color: red;
+}
+.navbar a{
+	display: inline block;
+	padding: 4px 25px;
+	font-size: 30px;
+	color: white;
+}
+a:hover{
+	background-color: red;
+
+
+}
+#menu-btn{
+	font-size: 3px;
+	color: white;
+	cursor: pointer;
+	display:none;
+}
+.equipment{
+    min-height: 100vh;
+    text-align: center;
+    padding: 2% 6%;
+}
+.equipment h1{
+    font-size: 60.8px;
+    padding: 8px;
+    display: inline-block;
+    color: yellowgreen;
+   border-bottom:4.8px solid yellowgreen ;
+   margin-top: 50px;
+    margin-bottom: 28.8px;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.container .columns{
+	flex: 0 0 auto;
+	width: 50%;
+}
+
+.container .columns .content{
+	padding: 20px 40px;
+}
+.container .columns .content p{
+	font-size: 21px;
+     margin-top: 10px;
+     margin-bottom: 50px;
+	text-align: justify;
+	color :white;
+}
+.container .columns .content h2{
+	font-size: 30px;
+     text-align: center;
+	color :yellowgreen;
+}
+img{
+	width: 400px;
+	height: 250px;
+}

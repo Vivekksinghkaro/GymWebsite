@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box sizing: border-box;
+	text-decoration: none;
+	border: none;
+	text-transform: capitalize;
+	transition: all .2px linear;
+}
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1px;
+	background-color:black ;
+    height: 50px;
+
+}
+body{
+
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 1366px 768px ;
+}
+.logo{
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+
+
+}
+span{
+	color: red;
+}
+.navbar a{
+	display: inline block;
+	padding: 4px 25px;
+	font-size: 30px;
+	color: white;
+} 
+a:hover{
+	background-color: red;
+
+
+}
+#menu-btn{
+	font-size: 3px;
+	color: white;
+	cursor: pointer;
+	display:none;
+
+}
+.gallery{
+    min-height: 100vh;
+    text-align: center;
+    padding: 2% 6%;
+}
+.gallery h1{
+    font-size: 60.8px;
+    padding: 8px;
+    display: inline-block;
+    color: yellowgreen;
+   border-bottom:4.8px solid yellowgreen ;
+   margin-top: 50px;
+    margin-bottom: 28.8px;
+}
+.gallery .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 528px);
+   gap:24px;
+   justify-content: center;
+}
+
+.gallery .box-container img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}

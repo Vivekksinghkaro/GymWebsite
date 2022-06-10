@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	box sizing: border-box;
+	text-decoration: none;
+	border: none;
+	text-transform: capitalize;
+	transition: all .2px linear;
+}
+body{
+
+	background-image:url("images/gym.jpg");
+	background-repeat: no-repeat;
+	background-size: 1366px 768px ;
+}
+h1{
+	padding-top: 80px;
+	color: yellowgreen;
+	text-align: center;
+}
+span{
+	color: red;
+}
+.container{
+	margin-left: 430px;
+	padding: 10px;
+	width: 35%;
+
+}
+
+
+.form input {
+	text-align: center;
+	display: block;
+	width: 300px;
+	padding: 1px;
+	border: 2px solid black;
+	margin: 2px auto;
+	border-radius:8px;
+	font-size:20px;
+}
+.container h1{
+	color: whitesmoke;
+	text-align: center;
+	padding-bottom:20px ;
+	margin-left: 20px;
+}
+.container button{
+	display: block;
+	width: 70px;
+	margin: 15px auto;
+}
+.btn{
+	margin: 0px 5px;
+	padding: 4px 14px;
+	border: 2px solid grey;
+	border-radius:10px ;
+	font-size: 14px;
+	cursor: pointer;
+}

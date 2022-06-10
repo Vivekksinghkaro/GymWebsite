@@ -1,0 +1,86 @@
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px;
+
+
+}
+.logo{
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+	padding-left: 0px;
+
+}
+span{
+	color: red;
+}
+.navbar a{
+	display: inline block;
+	padding: 4px 30px;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+
+}
+a:hover{
+	background-color: red;
+}
+.navbar{
+	margin:0px;
+	
+	padding-top: 3px;
+	background-color:black ;
+	width: 1360px;
+	height: 40px;
+}
+
+
+h1{
+	text-align: center;
+}
+h3{
+	font-size: 20px;
+}
+div{
+	font-size: 20px;
+}
+iframe{
+	width: 1320px;
+	height: 400px;
+	border: 0px;
+
+}
+.main{
+	color: black;
+	width: 1360px;
+	height: 40px;
+	margin-top: 40px;
+	text-align: center;
+	
+}
+
+
+}
+.telephone{
+	     
+          
+}
+.mail{
+	    text-decoration: none;
+	     
+	}
+
+.facebook{
+	text-decoration: none;
+}
+.instagram{
+	text-decoration: none;
+}
+
+
